@@ -1,7 +1,37 @@
 .App {
   text-align: center;
 }
+.Days .Day:first-child {
+  background-color: rgb(225, 225, 225);
+}
 
-ul {
-  list-style-type: none;
+.Day {
+  display: inline-block;
+
+  margin: 15px 5px 0px 5px;
+
+  border-style: solid;
+  border-color: gray;
+  border-radius: 5%;
+
+  padding: 4px;
+}
+
+.Day:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.Select {
+  font-size: 110%;
+
+  border-style: solid;
+  border-color: gray;
+  border-radius: 5%;
+  border-width: 1.5px;
+}
+
+.Select:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
